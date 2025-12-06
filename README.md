@@ -1,7 +1,7 @@
 # STPC_Lite
 A Lite version of Spatio-Temporal Principal Component (STPC) filter for basin-scale hydrological, cryospheric and oceanographic applications of GRACE/GRACE-FO. By reconciling two eigenvalue problems in spherical Slepian method and Multichannel Singular Spectrum Analysis (MSSA) based on different noise significance levels, The STPC filter establishes a statistical framework for basin-scale analyses via automatically determined, region-specific physical parameters governing spatio-temporal localization, leakage-in/out effects differentiation, uncertainty minimization across data centers, and mitigation of north-south striping.
 
-This version incorporates additional functionality for ocean applications (e.g., recovering GAD and correcting Inverted barometer in [Slepian_ocean_add-on package](https://github.com/KMartin0013/Slepian_ocean_add-on/tree/master)). 
+This version incorporates additional functionality for ocean applications (e.g., recovering GAD and correcting Inverted barometer in [Slepian_ocean_add-on package](https://github.com/KMartin0013/Slepian_ocean_add-on/tree/master). 
 
 ## Notice before use
 1. The Slepian procedure of this code is based on the [foundational Software from the Simons Laboratories](https://geoweb.princeton.edu/people/simons/software.html), and [its add-on version](https://github.com/KMartin0013/Slepian_ocean_add-on) for ocean application (e.g., GAD, GIA, IB correction).
