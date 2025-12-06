@@ -1,0 +1,68 @@
+An Additional File referencing to GRACE Technical Note 13
+
+TITLE:
+	Monthly degree-1 (geocenter) gravity coefficients from GAD product, generated from
+	GRACE (04-2002 - 06/2017) RL06 solutions.
+	Last reported data point: 16-Oct-2023.
+
+DESCRIPTION:
+	This file contains estimates of degree-1 gravity coefficients for the GRACE Release-06 data
+	based on GAD products for ocean application.
+
+	Reference in GRACE Technical Note 13:
+		For ocean applications, add the degree 1 values found in the ocean bottom pressure product 
+		(GAD) to these values. If you are interested in the full ocean, land, atmosphere geocenter, 
+		add the degree 1 values of the atmosphere/ocean product (GAC) to these values. 
+
+SPECIAL NOTES:
+	The anomalous signals are relative to the mean field from 2003-2014.
+
+FORMAT:
+	The data format is similar to that for GSM, GAD, and GAC files distributed by PODAAC, see
+	GRACE Level-2 handbook for more information.
+
+# EGM Coefficient Record 2 
+  variables:
+    record_key:
+      key_name              : GRCOF2 
+      long_name             : Earth Gravity Spherical Harmonic Model Format Type
+      data_type             : string
+      comment               : 1st column
+    degree_index:
+      key_name              : spherical harmonic degree l 
+      data_type             : integer
+      comment               : 2nd column
+    order_index:
+      key_name              : spherical harmonic degree l 
+      data_type             : integer
+      comment               : 3rd column
+    clm:
+      key_name              : Clm coefficient; cosine coefficient for degree l and order m
+      data_type             : double precision
+      comment               : 4th column
+    slm:
+      key_name              : Slm coefficient; cosine coefficient for degree l and order m
+      data_type             : double precision
+      comment               : 5th column
+    clm_std_dev: 
+      key_name              : standard deviation of Clm
+      data_type             : double precision
+      comment               : 6th column
+    slm_std_dev: 
+      key_name              : standard deviation of Slm
+      data_type             : double precision
+      comment               : 7th column
+    epoch_begin_time: 
+      long_name             : epoch begin of Clm, Slm coefficients
+      time_format           : yyyymmdd.hhmm
+      data_type             : double precision
+      comment               : 8th column
+    epoch_stop_time: 
+      long_name             : epoch stop of Clm, Slm coefficients
+      time_format           : yyyymmdd.hhmm
+      data_type             : double precision
+      comment               : 9th column
+
+end of header ===============================================================================
+GRCOF2	1	0	-.572706109023E-11	0.000000000000E+00	0.0000E+00	0.0000E+00	20020405.0000	20020501.0000
+GRCOF2	1	1	0.393458925807E-11	-.512605650498E-10	0.0000E+00	0.0000E+00	20020405.0000	20020501.0000
