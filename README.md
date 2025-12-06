@@ -29,7 +29,7 @@ This version incorporates additional functionality for ocean applications (e.g.,
   3.1 The fist procedure 'Lite_Slepian_V1.m' calculates spherical Slepian functions and corresponding spherical Slepian coefficients, primarily following the guideline in [slepian_delta](https://github.com/csdms-contrib/slepian_delta). Notice that the buffer zone for the study of interest (parameter R) should be first defined (normally by pre-simulating). You may need to run this procedure several times if you want to remove the uncertainty of GRACE/GRACE-FO across different data centers.
   3.2 The second procedure 'Lite_MSSA_V1.m' decomposes the corresponding spherical Slepian coefficients by MSSA and conducts a noise detection process at given significance level p. Notice that the sliding window size (parameter M) is optimally selected and a iterative MSSA procedure for gap filling proposed by <a href="https://www.linkedin.com/in/louis-marie-gauer-8a99a7176/?originalSubdomain=fr/">L. Gauer</a> et al. ([Ref 3](https://doi.org/10.1029/2022JB025561)) is automatically conducted in this procedure .
    3.3 The third procedure 'Lite_STPC_Greenland_V1.m' determines the optimal truncation number S for spherical Slepian method and cutoff number N for MSSA. Then, the area-weighted time series and spatial maps of equivalent water height (EWH), or non-steric sea level anomalies (NSLA), or mass loss at different significance level p was provided.
-4. Case study for South China Sea is also provided in 'Lite_Case1_SCS.m'.  
+4. Case study for South China Sea is also provided in 'Lite_Case2_SCS.m'.  
    
 ## Citation Information:
 Please cite our work and the foundational work by C. Harig, F. J. Simons, and L. Gauer as appropriate if you find this package useful.  
