@@ -1,0 +1,17 @@
+Required Module: 
+	Name:	DDK software (from strawpants) 
+	Source:	https://github.com/strawpants/GRACE-filter
+	Required Code:
+		/GRACE-filter-master
+
+Required Module: 
+	Name:	Slepian software (from fjsimons) 
+	Source:	https://github.com/csdms-contrib/slepian_alpha
+			https://github.com/csdms-contrib/slepian_bravo
+			https://github.com/csdms-contrib/slepian_delta
+			https://github.com/csdms-contrib/slepian_zero
+	Required Code:
+		/slepian_alpha-master
+		/slepian_bravo-master
+		/slepian_delta-master
+		/slepian_zero-master
