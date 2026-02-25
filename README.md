@@ -25,7 +25,7 @@ By reconciling two eigenvalue problems in spherical Slepian method and Multichan
 
 ## Output of this package
 1. Area-weighted equivalent water height (EWH, unit: cm), mass changes (unit: Gt), mass-term sea level changes (unit: cm, in ocean cases) at different significance levels of noise.  
-2. Gridded EWH, mass-term sea level changes (in ocean cases) at different significance levels of noise.
+2. Gridded EWH, mass-term sea level changes (MSL, in ocean cases) at different significance levels of noise.
 3. Noise level specific to the given regions. This can be obtained by subtracting the final STPC procedure results from the MSSA procedure results.  
 4. Output 1 and 2 but for other filters (e.g., Gaussian filter, DDK filter, no filter).  
 
