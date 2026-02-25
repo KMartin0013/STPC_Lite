@@ -29,7 +29,7 @@ By reconciling two eigenvalue problems in spherical Slepian method and Multichan
 3. Noise level specific to the given regions. This can be obtained by subtracting the final STPC procedure results from the MSSA procedure results.  
 4. Output 1 and 2 but for other filters (e.g., Gaussian filter, DDK filter, no filter).  
 
-Notice: All output time series will be gap-filled and averaged across different data centers specified in the running code.  
+Notice: All output time series will be gap-filled ([Ref 3](https://doi.org/10.1029/2022JB025561)) and averaged across different data centers specified in the running code.  
 
 
 ## Usage of this package  
