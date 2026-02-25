@@ -16,7 +16,7 @@ By reconciling two eigenvalue problems in spherical Slepian method and Multichan
 [slepian_zero](https://github.com/csdms-contrib/slepian_zero) (actually only guyotphysics.m)  
 [GRACE-filter](https://github.com/strawpants/GRACE-filter) (for DDK filter)  
 
-**Required software for mapping:**<br>
+**Required software for plotting:**<br>
 [m_map](https://www.eoas.ubc.ca/~rich/map.html)  
 [tight_subplot](https://ch.mathworks.com/matlabcentral/fileexchange/27991-tight_subplot-nh-nw-gap-marg_h-marg_w)  
 [hatchfill2](https://ch.mathworks.com/matlabcentral/fileexchange/53593-hatchfill2)  
@@ -24,7 +24,7 @@ By reconciling two eigenvalue problems in spherical Slepian method and Multichan
 
 
 ## Output of this package
-1. Area-weighted equivalent water height (EWH, unit: cm), mass changes (unit: Gt), mass-term sea level changes (unit: cm, in ocean cases) at different significance levels of noise.  
+1. Area-weighted equivalent water height (EWH, unit: cm), mass changes (unit: Gt), mass-term sea level changes (unit: cm, in ocean cases) time series at different significance levels of noise.  
 2. Gridded EWH, mass-term sea level changes (MSL, in ocean cases) at different significance levels of noise.
 3. Noise level specific to the given regions. This can be obtained by subtracting the final STPC procedure results from the MSSA procedure results.  
 4. Output 1 and 2 but for other filters (e.g., Gaussian filter, DDK filter, no filter).  
