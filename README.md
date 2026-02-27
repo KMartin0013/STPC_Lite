@@ -36,7 +36,7 @@ Notice: All output time series will be gap-filled ([Ref 3](https://doi.org/10.10
 1. Download the required software (or codes) and this codes as mentioned above.  
 2. Download the Spherical Harmonic coefficients and the associated correction files (e.g., degree 1, degree 20 correction) from different data centers.  
   2.1 Notice that for now this version supports the Release 05 (RL05) and Release 06 (RL06) data from the Center of Space Research (CSR) at the University of Texas, the Jet Propulsion Laboratory (JPL), GeoForschungsZentrum (GFZ), and the Institute of Geodesy at the Graz University of Technology (ITSG). If you use data centers other than these four, please revise the function 'grace2plmt_m.m' and 'gracedeg1_m' accordingly.  
-  2.2 All necessary files for each data center is listed in 'used_files.mat'.  
+  2.2 All necessary files for each data center is listed in '/GRACE/Originals/RL[05,06]/[CSR,GFZ,JPL,ITSG]0324/used_files.mat'.  
 3. Three primary procedures are included in the STPC filter.  
   3.1 The first procedure 'run_slepian_main.m' calculates spherical Slepian functions and corresponding spherical Slepian coefficients, primarily following the guideline in [slepian_delta](https://github.com/csdms-contrib/slepian_delta). If not specified, the optimal buffer zone for the region R will be automatically determined.  
   3.2 The second procedure 'run_MSSA_main.m' fills the data gaps within and between GRACE and GRACE-FO datasets. The RC corresponding to different orders of spherical Slepian coefficients will be averaged over all useful products. If not specified, the optimal size of the sliding window M in the reconstruction procedure will be automatically determined.  
